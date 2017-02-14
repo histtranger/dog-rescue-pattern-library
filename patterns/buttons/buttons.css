@@ -97,7 +97,7 @@
   transition: all 150ms linear;
 }
 
-.btn-s-light-big::focus, .btn-s-light-big:hover {
+.btn-s-light-big:focus, .btn-s-light-big:hover {
   background-color: var(--color-primary);
   border: none;
 }
