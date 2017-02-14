@@ -1,3 +1,8 @@
+.btn:focus {
+  outline: 2px outset var(--color-lightgrey);
+  outline-offset: 2px;
+}
+
 .btn-main {
   background-color: var(--color-secondary);
   border: none;
@@ -7,7 +12,7 @@
   transition: all 150ms linear;
 }
 
-.btn-main:hover {
+.btn-main:focus, .btn-main:hover {
   background-color: var(--color-primary);
 }
 
@@ -20,7 +25,7 @@
   transition: all 150ms linear;
 }
 
-.btn-main-light:hover {
+.btn-main-light:focus, .btn-main-light:hover {
   background-color: var(--color-secondary);
   color: var(--color-blue);
 }
@@ -34,7 +39,7 @@
   transition: all 150ms linear;
 }
 
-.btn-s-light:hover {
+.btn-s-light:focus, .btn-s-light:hover {
   background-color: var(--color-primary);
   border: none;
 }
@@ -48,7 +53,7 @@
   transition: all 150ms linear;
 }
 
-.btn-ghost:hover {
+.btn-ghost:focus, .btn-ghost:hover {
   background-color: var(--color-lightgrey);
   color: var(--color-white);
 }
@@ -63,7 +68,7 @@
   transition: all 150ms linear;
 }
 
-.btn-main-big:hover {
+.btn-main-big:focus, .btn-main-big:hover {
   background-color: var(--color-primary);
 }
 
@@ -77,7 +82,7 @@
   transition: all 150ms linear;
 }
 
-.btn-main-light-big:hover {
+.btn-main-light-big:focus, .btn-main-light-big:hover {
   background-color: var(--color-secondary);
   color: var(--color-blue);
 }
@@ -92,7 +97,7 @@
   transition: all 150ms linear;
 }
 
-.btn-s-light-big:hover {
+.btn-s-light-big::focus, .btn-s-light-big:hover {
   background-color: var(--color-primary);
   border: none;
 }
@@ -107,7 +112,7 @@
   transition: all 150ms linear;
 }
 
-.btn-ghost-big:hover {
+.btn-ghost-big:focus, .btn-ghost-big:hover {
   background-color: var(--color-lightgrey);
   color: var(--color-white);
 }
@@ -122,7 +127,7 @@
   transition: all 150ms linear;
 }
 
-.btn-main-small:hover {
+.btn-main-small:focus, .btn-main-small:hover {
   background-color: var(--color-primary);
 }
 
@@ -136,7 +141,7 @@
   transition: all 150ms linear;
 }
 
-.btn-main-light-small:hover {
+.btn-main-light-small:focus, .btn-main-light-small:hover {
   background-color: var(--color-secondary);
   color: var(--color-blue);
 }
@@ -151,7 +156,7 @@
   transition: all 150ms linear;
 }
 
-.btn-s-light-small:hover {
+.btn-s-light-small:focus, .btn-s-light-small:hover {
   background-color: var(--color-primary);
   border: none;
 }
@@ -166,7 +171,7 @@
   transition: all 150ms linear;
 }
 
-.btn-ghost-small:hover {
+.btn-ghost-small:focus, .btn-ghost-small:hover {
   background-color: var(--color-lightgrey);
   color: var(--color-white);
 }

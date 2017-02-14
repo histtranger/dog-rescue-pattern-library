@@ -6,6 +6,6 @@ These are the button styles for our site. Please only use these button styles.
 - The ghost button should be used the least. Only use if necessary. The main use is for banners with images in which none of the above buttons work or if a transparent button is absolutely needed.
 - The big buttons provide a larger sized button for you to use. Mostly used for banners, but can be used if necessary. The same thing goes for the small buttons. They should be used for small links, small mobile screens, small text, or in the footer if necessary. Please use the main size for most of our buttons.
 
-The font size and button padding may be adjusted slightly. Do not modify the padding above 0.75em and below .3em and .5em for fonts sizes of any of the original sizes. There are big buttons and small buttons provided but the same rules apply. 
+The font size and button padding may be adjusted slightly. Do not modify the padding above 0.75em and below .3em and .5em for fonts sizes of any of the original sizes. There are big buttons and small buttons provided but the same rules apply.
 
-All buttons should have capitalized text, unless absolutely necessary. All hover transitions should be 200ms.
+All buttons should have capitalized text, unless absolutely necessary. All hover transitions should be between 150ms-200ms.
