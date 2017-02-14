@@ -380,10 +380,13 @@
         <div class="max-length"><p>These are the button styles for our site. Please only use these button styles.</p>
 <ul>
 <li>The standard button is the main button that will be used. Use this one the most.</li>
-<li>The light button is for darker backgrounds, or for buttons that aren&#39;t used that frequently.</li>
-<li>The ghost button should be used the least. Only use if necessary. The main use is for banners with images.</li>
+<li>The light button is for darker backgrounds, or if a lighter button is needed.</li>
+<li>The secondary light button is an even lighter button, but not quite transparent like the ghost button. This button should be only used for banners and pictures in which the main light button doesn&#39;t show up enough. This button should never be used on a light colored background.</li>
+<li>The ghost button should be used the least. Only use if necessary. The main use is for banners with images in which none of the above buttons work or if a transparent button is absolutely needed.</li>
+<li>The big buttons provide a larger sized button for you to use. Mostly used for banners, but can be used if necessary. The same thing goes for the small buttons. They should be used for small links, small mobile screens, small text, or in the footer if necessary. Please use the main size for most of our buttons.</li>
 </ul>
-<p>The font size and button padding may be adjusted slightly. Do not increase the padding beyond 2em.  </p>
+<p>The font size and button padding may be adjusted slightly. Do not modify the padding above 0.75em and below .3em and .5em for fonts sizes of any of the original sizes. There are big buttons and small buttons provided but the same rules apply. </p>
+<p>All buttons should have capitalized text, unless absolutely necessary. All hover transitions should be 200ms.</p>
 </div>
       </div>
   </div>
@@ -398,9 +401,18 @@
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;a class="btn" href="#"&gt;Standard button&lt;/a>
-&lt;a class="btn btn-light" href="#">Light button&lt;/a>
-&lt;a class="btn btn-ghost" href="#">Ghost Button&lt;/a>
+              <code><pre>&lt;a class="btn btn-main" href="#"&gt;MAIN&lt;/a>
+&lt;a class="btn btn-main-light" href="#">MAIN LIGHT&lt;/a>
+&lt;a class="btn btn-s-light" href="#">SECONDARY LIGHT&lt;/a>
+&lt;a class="btn btn-ghost" href="#">GHOST&lt;/a>
+&lt;a class="btn btn-main-big" href="#">MAIN BIG&lt;/a>
+&lt;a class="btn btn-main-light-big" href="#">MAIN LIGHT BIG&lt;/a>
+&lt;a class="btn btn-s-light-big" href="#">SECONDARY LIGHT&lt;/a>
+&lt;a class="btn btn-ghost-big" href="#">GHOST BIG&lt;/a>
+&lt;a class="btn btn-main-small" href="#">MAIN SMALL&lt;/a>
+&lt;a class="btn btn-main-light-small" href="#">MAIN LIGHT SMALL&lt;/a>
+&lt;a class="btn btn-s-light-small" href="#">SECONDARY SMALL&lt;/a>
+&lt;a class="btn btn-ghost-small" href="#">GHOST SMALL&lt;/a>
 </pre></code>
             </div>
           </div>

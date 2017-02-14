@@ -1,14 +1,172 @@
-.btn {
+.btn-main {
   background-color: var(--color-secondary);
-  color: var(--color-grey);
+  border: none;
+  color: var(--color-blue);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
 }
 
-.btn-light {
+.btn-main:hover {
+  background-color: var(--color-primary);
+}
+
+.btn-main-light {
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-white);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-main-light:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-blue);
+}
+
+.btn-s-light {
   background-color: var(--color-blue);
+  border: none;
   color: var(--color-grey);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-s-light:hover {
+  background-color: var(--color-primary);
+  border: none;
 }
 
 .btn-ghost {
   background-color: transparent;
+  border: none;
   color: var(--color-grey);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-lightgrey);
+  color: var(--color-white);
+}
+
+.btn-main-big {
+  font-size: 1.5em;
+  background-color: var(--color-secondary);
+  border: none;
+  color: var(--color-blue);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em;
+  transition: all 150ms linear;
+}
+
+.btn-main-big:hover {
+  background-color: var(--color-primary);
+}
+
+.btn-main-light-big {
+  font-size: 1.5em;
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-white);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-main-light-big:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-blue);
+}
+
+.btn-s-light-big {
+  font-size: 1.5em;
+  background-color: var(--color-blue);
+  border: none;
+  color: var(--color-grey);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-s-light-big:hover {
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.btn-ghost-big {
+  font-size: 1.5em;
+  background-color: transparent;
+  border: none;
+  color: var(--color-grey);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-ghost-big:hover {
+  background-color: var(--color-lightgrey);
+  color: var(--color-white);
+}
+
+.btn-main-small {
+  font-size: .65em;
+  background-color: var(--color-secondary);
+  border: none;
+  color: var(--color-blue);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-main-small:hover {
+  background-color: var(--color-primary);
+}
+
+.btn-main-light-small {
+  font-size: .65em;
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-white);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-main-light-small:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-blue);
+}
+
+.btn-s-light-small {
+  font-size: .65em;
+  background-color: var(--color-blue);
+  border: none;
+  color: var(--color-grey);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-s-light-small:hover {
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.btn-ghost-small {
+  font-size: .65em;
+  background-color: transparent;
+  border: none;
+  color: var(--color-grey);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+.btn-ghost-small:hover {
+  background-color: var(--color-lightgrey);
+  color: var(--color-white);
 }
