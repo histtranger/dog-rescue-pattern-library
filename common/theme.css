@@ -1,10 +1,10 @@
 :root {
-  --color-primary: #B1C1D9;
+  --color-primary: #b1c1d9;
   --color-secondary: #423957;
-  --color-blue: #EDF9FC;
+  --color-blue: #edf9fc;
   --color-white: #fff;
   --color-grey: #505152;
-  --color-lightgrey: #95989A;
+  --color-lightgrey: #95989a;
 
   --font-primary: "Droid Serif", serif;
   --font-secondary: "Droid Sans", sans-serif;
