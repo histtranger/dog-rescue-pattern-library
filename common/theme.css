@@ -40,12 +40,12 @@ a {
 }
 
 p {
-  font-family: var(--font-secondary)
-  color: var(--color-grey)
+  font-family: var(--font-secondary);
+  color: var(--color-grey);
 }
 
 small {
-  color: var(--color-lightgrey)
+  color: var(--color-lightgrey);
 }
 
 blockquote {
