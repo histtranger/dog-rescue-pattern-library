@@ -48,6 +48,10 @@ p {
   color: var(--color-grey);
 }
 
+label {
+  font-family: var(--font-primary);
+}
+
 small {
   color: var(--color-lightgrey);
 }

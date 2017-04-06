@@ -1,0 +1,41 @@
+.card1 {
+  background-color: var(--color-blue);
+  max-width: 400px;
+  margin: .5em auto;
+}
+
+.card2 {
+  background-color: var(--color-primary);
+  max-width: 300px;
+  margin: 0.5em;
+}
+
+.card3 {
+  background-color: var(--color-primary);
+  margin: 0.5em;
+  border-radius: 20px;
+  max-width: 300px;
+}
+
+.white {
+  color: var(--color-white);
+}
+
+.banner {
+  max-width: 100%;
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  top: 15%;
+  left: 50px;
+  z-index: 5;
+  color: var(--color-white);
+}
+
+.button-banner {
+  right: 50px;
+  bottom: 50px;
+  position: absolute;
+}

@@ -1,0 +1,76 @@
+label {
+ font-family: var(--font-primary);
+}
+
+.max {
+  width: 100%;
+  max-width: 20em;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid var(--color-lightgrey);
+  box-shadow: 1px 1px 2px var(--color-lightgrey);
+  max-width: 320px;
+  margin-left: 15px;
+}
+
+textarea {
+  max-height: 5em;
+}
+
+fieldset {
+  border: none;
+}
+
+.radio {
+  display: block;
+  margin-left: 2em;
+}
+
+legend {
+  border: none;
+  font-weight: normal;
+  padding-left: 0;
+}
+
+input[type="radio"] + label::before {
+  content: " ";
+  display: inline-block;
+  height: .8em;
+  position: relative;
+  vertical-align: middle;
+  width: .8em;
+
+  background-color: #fff;
+  background-size: cover;
+  border: 2px solid #000;
+  border-radius: 30%;
+
+  line-height: inherit;
+}
+
+input[type="radio"]:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' data-name='Layer 1' viewBox='0 0 256 256'%3E%3Ccircle cx='128' cy='128' r='70.4'/%3E%3C/svg%3E");
+  border-color: var(--color-primary)
+}
+
+.is-validated input:invalid,
+.is-validated input[type="radio"]:invalid + label::before {
+  border-color: #ff4d4d;
+}
+
+.error-message {
+  display: none;
+  max-width: 321px;
+  margin-left: 15px;
+  color:  #cc0000;
+  width: 100%;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
