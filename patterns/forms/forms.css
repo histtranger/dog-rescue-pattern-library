@@ -61,9 +61,18 @@ input[type="radio"]:checked + label::before {
   border-color: var(--color-primary)
 }
 
-.is-validated input:invalid,
-.is-validated textarea:invalid,
-.is-validated select:invalid,
+.is-validated input:invalid {
+  border-color: #ff4d4d;
+}
+
+.is-validated textarea:invalid {
+  border-color: #ff4d4d;
+}
+
+.is-validated select:invalid {
+  border-color: #ff4d4d;
+}
+
 .is-validated input[type="radio"]:invalid + label::before {
   border-color: #ff4d4d;
 }

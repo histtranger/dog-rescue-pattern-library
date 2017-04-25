@@ -16,288 +16,290 @@
   <link href="../patterns/forms/forms.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700" rel="stylesheet">
 </head>
-<body>
-<header class="wrapper">
-  <nav class="relative grid grid-middle">
-    <div class="gutter inline-block unit xs-1 s-1-4 m-1-4">
-      <a href="home.html">
-        <img class="icon i-80 i-center" src="../images/logo-64.svg" alt="Logo">
-      </a>
-    </div>
-    <div class="unit xs-1 s-3-4 m-3-4 pad-b-1-2 pad-t-1-2">
-      <ul class="nav-list list-group">
-        <li class="inline-block gutter-1-4">
-          <a class="btn btn-main-light" href="#">FAQ</a>
-        </li>
-        <li class="inline-block gutter-1-4">
-          <a class="btn btn-main-light" href="adoptable-dogs.html">For Adoption</a>
-        </li>
-        <li class="inline-block gutter-1-4">
-          <a class="btn btn-main" href="application.html">Application</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
-<section class="wrapper background-white pad-b">
-
-  <div class="island">
-    <h2 class="pad-b-1-2">Application Form</h2>
-    <p>Please read every question thoughtfully and carefully and try to fill them in as best you can. If the application is not complete, we cannot consider you for one of our dogs. Adopting or fostering a rescued dog is a serious endeavor and should not be a decision made on a whim. Some of the dogs we receive have special needs so please keep that in mind before fostering or adopting one of our rescue dogs.</p>
-    <p><b>All important information is marked with an asterisk.</b></p>
-    <img class="center block icon i-32" src="../images/logo-16.svg" alt="Small Logo">
-  </div>
-
-  <h3 class="push-0 gutter">Personal Information</h3>
-  <form class="gutter grid" novalidate>
-    <div class="xs-1 s-1 m-1-2">
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="first-name">First Name *</label>
-        <input id="first-name" required aria-describedby="first-name">
-        <p class="error-message milli push-0" id="first-name-error">Please provide first name</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="last-name">Last Name *</label>
-        <input id="last-name" required aria-describedby="last-name">
-        <p class="error-message milli push-0" id="last-name-error">Please provide last name</p>
-      </div>
-    </div>
-    <div class="xs-1 s-1 m-1-2">
-      <div class="pad-t unit xs-1 s-1-4 m-1-4 gutter-1-2">
-        <label class="pad-b-1-4" for="number-age">Age *</label>
-        <input class="small-txt-area" type="number" id="number-age" required aria-describedby="number-age">
-        <p class="error-message milli push-0" id="number-age-error">Cannot be blank</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1-2 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="email">Email *</label>
-        <input type="email" id="email" required aria-describedby="email">
-        <p class="error-message milli push-0" id="email-error">Please provide email</p>
-      </div>
-    </div>
-    <div class="xs-1 s-1 m-1-2 pad-b">
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="address">Address *</label>
-        <input id="address" required aria-describedby="address">
-        <p class="error-message milli push-0" id="address-error">Cannot be blank</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="city">City</label>
-        <input id="city" required aria-describedby="city">
-        <p class="error-message milli push-0" id="city-error">Cannot be blank</p>
-      </div>
-    </div>
-    <div class="xs-1 s-1 m-1-2">
-      <div class="pad-t unit xs-1 s-1 m-1-4 gutter-1-2">
-        <label class="pad-b-1-4" for="province">Province*</label>
-        <input  class="small-txt-area" id="province" required aria-describedby="province">
-        <p class="error-message milli push-0" id="province-error">Cannot be blank</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="pcode">Postal Code</label>
-        <input id="pcode" required aria-describedby="pcode">
-        <p class="error-message milli push-0" id="pcode-error">Cannot be blank</p>
-      </div>
-    </div>
-    <div class="xs-1 s-1 m-1 pad-">
-      <div class="gutter-1-2 pad-t pad-b unit xs-1 s-1-2 m-1-2">
-        <label class="pad-b-1-4" for="children">Do you have children in the house? If yes, how many?</label>
-        <select aria-describedby="children" id="children">
-          <option value="children-one">No children</option>
-          <option value="children-two">2</option>
-          <option value="children-three">3</option>
-          <option value="children-four">4+</option>
-        </select>
-        <p class="error-message milli push-0" id="children-error">Cannot be blank</p>
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="children-age">If answered yes to previous question, state the children's age. If more than one child is in the house, separate each age with a comma.</label>
-        <input id="children-age" aria-describedby="children-age">
-      </div>
-    </div>
-
-    <h3 class="pad-t-2 unit push-0 xs-1">Personal Questionnaire</h3>
-
-    <div class="xs-1 s-1 m-1 pad-b">
-      <div class="pad-t unit xs-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="explain-fit">Please explain why you would be a good fit for the dog you would like to adopt/foster. *</label>
-        <textarea required id="explain-fit" aria-describedby="explain-fit"></textarea>
-        <p class="error-message milli push-0" id="explain-fit-error">Cannot be blank</p>
-      </div>
-      <div class="pad-t unit xs-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="explain-foster">Please explain why you want to foster or adopt one of our dogs? *</label>
-        <textarea required id="explain-foster" aria-describedby="explain-foster"></textarea>
-        <p class="error-message milli push-0" id="explain-foster-error">Cannot be blank</p>
-      </div>
-    </div>
-
-    <div class="xs-1 s-1 m-1 pad-b">
-      <div class="unit xs-1 s-1 m-1-2 gutter-1-2 gutter-1-2">
-        <fieldset>
-          <legend class="gutter-1-2 unit push-0 pad-t pad-b-1-4">Do you have yard space or access to outdoor space? *</legend>
-          <div class="gutter unit push-0 pad-b-1-4">
-            <input required class="radio pad-t" type="radio" id="option-one" name="yard">
-            <label for="option-one">Yes</label>
-            <p class="error-message milli push-0" id="yard-error">Please select an option</p>
-          </div>
-          <div class="gutter unit">
-            <input required class="radio pad-t" type="radio" id="option-two" name="yard">
-            <label for="option-two">No</label>
-          </div>
-        </fieldset>
-      </div>
-      <div class="pad-t unit xs-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="behavior">Are there any specific behaviors that the dog may exhibit that would prompt you to give it up? *</label>
-        <textarea required aria-describedby="behavior" id="behavior"></textarea>
-        <p class="error-message milli push-0" id="behavior-error">Cannot be blank</p>
-      </div>
-    </div>
-    <div class="xs-1 s-1 m-1 pad-b">
-      <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
-        <fieldset>
-          <legend class="gutter-1-2 unit push-0 pad-t pad-b-1-4">Are there other pets in the house? *</legend>
-          <div class="gutter unit push-0 pad-b-1-4">
-            <input required class="radio pad-t" type="radio" id="pets1" name="option">
-            <label for="option-one">Yes</label>
-            <p class="error-message milli push-0" id="pets-error">Please select an option</p>
-          </div>
-          <div class="gutter unit">
-            <input required class="radio pad-t" type="radio" id="pets2" name="option">
-            <label for="option-two">No</label>
-          </div>
-        </fieldset>
-      </div>
-
-    <div class="pad-t unit xs-1 m-1-2 gutter-1-2">
-      <label class="pad-b-1-4" for="yes-pets">If answered yes to previous question, please tell us the type of animal and how many. *</label>
-      <textarea required aria-describedby="yes-pets" id="yes-pets"></textarea>
-      <p class="error-message milli push-0" id="yes-pets-error">Cannot be blank</p>
-      </div>
-    </div>
-
-    <h3 class="pad-t-2 unit push-0 xs-1">References</h3>
-
-    <div class="xs-1 s-1 m-1-2">
-      <h5 class="pad-t unit push-0 xs-1">Reference 1</h5>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="first-name1">First Name *</label>
-        <input id="first-name1" required aria-describedby="first-name1">
-        <p class="error-message milli push-0" id="first-name1-error">Please provide at least three reference</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="last-name1">Last Name *</label>
-        <input id="last-name1" required aria-describedby="last-name1">
-        <p class="error-message milli push-0" id="last-name1-error">Please provide at least three reference</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="relationship1">Relationship *</label>
-        <input id="relationship1" required aria-describedby="relationship1">
-        <p class="error-message milli push-0" id="relationship1-error">Please provide at least three reference</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="last-name">Phone Number *</label>
-        <input type="tel" id="phone1" required aria-describedby="phone1">
-        <p class="error-message milli push-0" id="phone1-error">Please provide at least three reference</p>
-      </div>
-    </div>
-    <div class="xs-1 s-1 m-1-2">
-      <h5 class="pad-t unit push-0 xs-1">Reference 2</h5>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="first-name2">First Name *</label>
-        <input id="first-name2" required aria-describedby="first-name2">
-        <p class="error-message milli push-0" id="first-name2-error">Please provide at least three reference</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="last-name2">Last Name *</label>
-        <input id="last-name2" required aria-describedby="last-name2">
-        <p class="error-message milli push-0" id="last-name2-error">Please provide at least three reference</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="relationship2">Relationship *</label>
-        <input id="relationship2" required aria-describedby="relationship2">
-        <p class="error-message milli push-0" id="relationship2-error">Please provide at least three reference</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="phone2">Phone Number *</label>
-        <input type="tel" id="phone2" required aria-describedby="phone2">
-        <p class="error-message milli push-0" id="phone2-error">Please provide at least three reference</p>
-      </div>
-    </div>
-    <div class="xs-1 s-1 m-1-2">
-      <h5 class="pad-t unit push-0 xs-1">Reference 3</h5>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="first-name3">First Name *</label>
-        <input id="first-name3" required aria-describedby="first-name3">
-        <p class="error-message milli push-0" id="first-name3-error">Please provide at least three reference</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="last-name3">Last Name *</label>
-        <input id="last-name3" required aria-describedby="last-name3">
-        <p class="error-message milli push-0" id="last-name3-error">Please provide at least three reference</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="relationship3">Relationship *</label>
-        <input id="relationship3" required aria-describedby="relationship3">
-        <p class="error-message milli push-0" id="relationship3-error">Please provide at least three reference</p>
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="phone3">Phone Number *</label>
-        <input type="tel" id="phone3" required aria-describedby="phone3">
-        <p class="error-message milli push-0" id="phone3-error">Please provide at least three reference</p>
-      </div>
-    </div>
-    <div class="xs-1 s-1 m-1-2">
-      <h5 class="pad-t unit push-0 xs-1">Reference 4</h5>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="first-name4">First Name</label>
-        <input id="first-name4" aria-describedby="first-name4">
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="last-name4">Last Name</label>
-        <input id="last-name4" aria-describedby="last-name4">
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="relationship4">Relationship</label>
-        <input id="relationship4" aria-describedby="relationship4">
-      </div>
-      <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
-        <label class="pad-b-1-4" for="phone4">Phone Number</label>
-        <input type="tel" id="phone4" aria-describedby="phone4">
-      </div>
-    </div>
-    <div class="xs-1 s-1 m-1-2">
-      <div class="unit xs-1 m-1 l-1 pad-t pad-b-1-2 gutter">
-        <button class="btn btn-main" type="submit">Submit</button>
-      </div>
-    </div>
-  </form>
-</section>
-
-<footer class="pad-b wrapper">
-  <div class="grid">
-    <div class="unit xs-1 m-1-4 gutter pad-t">
-      <p class="push-0">Contact Us</p>
-      <p class="push-0 milli">613-822-0014</p>
-      <p class="push-0 milli">14B-1822 Whites Road Suite 327</p>
-    </div>
-    <div class="unit xs-1 m-1-4 gutter pad-t">
-      <p class="push-0 milli primary"><a href="adoptable-dogs.html">For Adoption</a></p>
-      <p class="push-0 milli primary"><a href="application.html">Application Form</a></p>
-    </div>
-    <div class="unit xs-1 m-1-4 grid gutter pad-t-1-2">
-      <div class="unit xs-1-4 m-1 pad-b-1-2 pad-t-1-2 inline-block">
-        <a href="https://www.facebook.com/LOYAL-Rescue-Inc-109918792364494/">
-          <svg class="icon i-48"><use xlink:href="../../images/icons.svg#facebook" /></svg>
+<body class="blue">
+  <header class="wrapper">
+    <nav class="relative grid grid-middle">
+      <div class="gutter inline-block unit xs-1 s-1-4 m-1-4">
+        <a href="home.html">
+          <i class="icon i-80">
+            <svg><use xlink:href="../../images/icons.svg#logo-32.svg" /></svg>
+          </i>
         </a>
       </div>
-      <div class="unit xs-1-4 m-1 pad-b-1-2 pad-t-1-2 inline-block">
-        <a href="https://twitter.com/LOYALRescueDogs?lang=en">
-          <svg class="icon i-48"><use xlink:href="../../images/icons.svg#twitter" /></svg>
-        </a>
+      <div class="unit xs-1 s-3-4 m-3-4 pad-b-1-2 pad-t-1-2">
+        <ul class="nav-list list-group">
+          <li class="inline-block gutter-1-4">
+            <a class="btn btn-main-light" href="#">FAQ</a>
+          </li>
+          <li class="inline-block gutter-1-4">
+            <a class="btn btn-main-light" href="adoptable-dogs.html">For Adoption</a>
+          </li>
+          <li class="inline-block gutter-1-4">
+            <a class="btn btn-main" href="application.html">Application</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="wrapper background-white pad-b">
+
+    <div class="island">
+      <h2 class="pad-b-1-2">Application Form</h2>
+      <p>Please read every question thoughtfully and carefully and try to fill them in as best you can. If the application is not complete, we cannot consider you for one of our dogs. Adopting or fostering a rescued dog is a serious endeavor and should not be a decision made on a whim. Some of the dogs we receive have special needs so please keep that in mind before fostering or adopting one of our rescue dogs.</p>
+      <p><b>All important information is marked with an asterisk.</b></p>
+      <img class="center block icon i-32" src="../images/logo-16.svg" alt="Small Logo">
+    </div>
+
+    <h3 class="push-0 gutter">Personal Information</h3>
+    <form class="gutter grid" novalidate>
+      <div class="xs-1 s-1 m-1-2">
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="first-name">First Name *</label>
+          <input id="first-name" required aria-describedby="first-name">
+          <p class="error-message milli push-0" id="first-name-error">Please provide first name</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="last-name">Last Name *</label>
+          <input id="last-name" required aria-describedby="last-name">
+          <p class="error-message milli push-0" id="last-name-error">Please provide last name</p>
+        </div>
+      </div>
+      <div class="xs-1 s-1 m-1-2">
+        <div class="pad-t unit xs-1 s-1-4 m-1-4 gutter-1-2">
+          <label class="pad-b-1-4" for="number-age">Age *</label>
+          <input class="small-txt-area" type="number" id="number-age" required aria-describedby="number-age">
+          <p class="error-message milli push-0" id="number-age-error">Cannot be blank</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1-2 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="email">Email *</label>
+          <input type="email" id="email" required aria-describedby="email">
+          <p class="error-message milli push-0" id="email-error">Please provide email</p>
+        </div>
+      </div>
+      <div class="xs-1 s-1 m-1-2 pad-b">
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="address">Address *</label>
+          <input id="address" required aria-describedby="address">
+          <p class="error-message milli push-0" id="address-error">Cannot be blank</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="city">City</label>
+          <input id="city" required aria-describedby="city">
+          <p class="error-message milli push-0" id="city-error">Cannot be blank</p>
+        </div>
+      </div>
+      <div class="xs-1 s-1 m-1-2">
+        <div class="pad-t unit xs-1 s-1 m-1-4 gutter-1-2">
+          <label class="pad-b-1-4" for="province">Province*</label>
+          <input class="small-txt-area" id="province" required aria-describedby="province">
+          <p class="error-message milli push-0" id="province-error">Cannot be blank</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="pcode">Postal Code</label>
+          <input id="pcode" required aria-describedby="pcode">
+          <p class="error-message milli push-0" id="pcode-error">Cannot be blank</p>
+        </div>
+      </div>
+      <div class="xs-1 s-1 m-1 pad-">
+        <div class="gutter-1-2 pad-t pad-b unit xs-1 s-1 m-1-2">
+          <label class="pad-b-1-4" for="children">Do you have children in the house? If yes, how many?</label>
+          <select aria-describedby="children" id="children">
+            <option value="children-one">No children</option>
+            <option value="children-two">2</option>
+            <option value="children-three">3</option>
+            <option value="children-four">4+</option>
+          </select>
+          <p class="error-message milli push-0" id="children-error">Cannot be blank</p>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="children-age">If answered yes to previous question, state the children's age. If more than one child is in the house, separate each age with a comma.</label>
+          <input id="children-age" aria-describedby="children-age">
+        </div>
+      </div>
+
+      <h3 class="pad-t-2 unit push-0 xs-1">Personal Questionnaire</h3>
+
+      <div class="xs-1 s-1 m-1 pad-b">
+        <div class="pad-t unit xs-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="explain-fit">Please explain why you would be a good fit for the dog you would like to adopt/foster. *</label>
+          <textarea required id="explain-fit" aria-describedby="explain-fit"></textarea>
+          <p class="error-message milli push-0" id="explain-fit-error">Cannot be blank</p>
+        </div>
+        <div class="pad-t unit xs-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="explain-foster">Please explain why you want to foster or adopt one of our dogs? *</label>
+          <textarea required id="explain-foster" aria-describedby="explain-foster"></textarea>
+          <p class="error-message milli push-0" id="explain-foster-error">Cannot be blank</p>
+        </div>
+      </div>
+
+      <div class="xs-1 s-1 m-1 pad-b">
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 gutter-1-2">
+          <fieldset>
+            <legend class="gutter-1-2 unit push-0 pad-t pad-b-1-4">Do you have yard space or access to outdoor space? *</legend>
+            <div class="gutter unit push-0 pad-b-1-4">
+              <input required class="radio pad-t" type="radio" id="option-one" name="yard">
+              <label for="option-one">Yes</label>
+              <p class="error-message milli push-0" id="yard-error">Please select an option</p>
+            </div>
+            <div class="gutter unit">
+              <input required class="radio pad-t" type="radio" id="option-two" name="yard">
+              <label for="option-two">No</label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="pad-t unit xs-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="behavior">Are there any specific behaviors that the dog may exhibit that would prompt you to give it up? *</label>
+          <textarea required aria-describedby="behavior" id="behavior"></textarea>
+          <p class="error-message milli push-0" id="behavior-error">Cannot be blank</p>
+        </div>
+      </div>
+      <div class="xs-1 s-1 m-1 pad-b">
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
+          <fieldset>
+            <legend class="gutter-1-2 unit push-0 pad-t pad-b-1-4">Are there other pets in the house? *</legend>
+            <div class="gutter unit push-0 pad-b-1-4">
+              <input required class="radio pad-t" type="radio" id="pets1" name="option">
+              <label for="option-one">Yes</label>
+              <p class="error-message milli push-0" id="pets-error">Please select an option</p>
+            </div>
+            <div class="gutter unit">
+              <input required class="radio pad-t" type="radio" id="pets2" name="option">
+              <label for="option-two">No</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="pad-t unit xs-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="yes-pets">If answered yes to previous question, please tell us the type of animal and how many. *</label>
+          <textarea required aria-describedby="yes-pets" id="yes-pets"></textarea>
+          <p class="error-message milli push-0" id="yes-pets-error">Cannot be blank</p>
+        </div>
+      </div>
+
+      <h3 class="pad-t-2 unit push-0 xs-1">References</h3>
+
+      <div class="xs-1 s-1 m-1-2">
+        <h5 class="pad-t unit push-0 xs-1">Reference 1</h5>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="first-name1">First Name *</label>
+          <input id="first-name1" required aria-describedby="first-name1">
+          <p class="error-message milli push-0" id="first-name1-error">Please provide at least three reference</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="last-name1">Last Name *</label>
+          <input id="last-name1" required aria-describedby="last-name1">
+          <p class="error-message milli push-0" id="last-name1-error">Please provide at least three reference</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="relationship1">Relationship *</label>
+          <input id="relationship1" required aria-describedby="relationship1">
+          <p class="error-message milli push-0" id="relationship1-error">Please provide at least three reference</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="last-name">Phone Number *</label>
+          <input type="tel" id="phone1" required aria-describedby="phone1">
+          <p class="error-message milli push-0" id="phone1-error">Please provide at least three reference</p>
+        </div>
+      </div>
+      <div class="xs-1 s-1 m-1-2">
+        <h5 class="pad-t unit push-0 xs-1">Reference 2</h5>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="first-name2">First Name *</label>
+          <input id="first-name2" required aria-describedby="first-name2">
+          <p class="error-message milli push-0" id="first-name2-error">Please provide at least three reference</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="last-name2">Last Name *</label>
+          <input id="last-name2" required aria-describedby="last-name2">
+          <p class="error-message milli push-0" id="last-name2-error">Please provide at least three reference</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="relationship2">Relationship *</label>
+          <input id="relationship2" required aria-describedby="relationship2">
+          <p class="error-message milli push-0" id="relationship2-error">Please provide at least three reference</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="phone2">Phone Number *</label>
+          <input type="tel" id="phone2" required aria-describedby="phone2">
+          <p class="error-message milli push-0" id="phone2-error">Please provide at least three reference</p>
+        </div>
+      </div>
+      <div class="xs-1 s-1 m-1-2">
+        <h5 class="pad-t unit push-0 xs-1">Reference 3</h5>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="first-name3">First Name *</label>
+          <input id="first-name3" required aria-describedby="first-name3">
+          <p class="error-message milli push-0" id="first-name3-error">Please provide at least three reference</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="last-name3">Last Name *</label>
+          <input id="last-name3" required aria-describedby="last-name3">
+          <p class="error-message milli push-0" id="last-name3-error">Please provide at least three reference</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="relationship3">Relationship *</label>
+          <input id="relationship3" required aria-describedby="relationship3">
+          <p class="error-message milli push-0" id="relationship3-error">Please provide at least three reference</p>
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="phone3">Phone Number *</label>
+          <input type="tel" id="phone3" required aria-describedby="phone3">
+          <p class="error-message milli push-0" id="phone3-error">Please provide at least three reference</p>
+        </div>
+      </div>
+      <div class="xs-1 s-1 m-1-2">
+        <h5 class="pad-t unit push-0 xs-1">Reference 4</h5>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="first-name4">First Name</label>
+          <input id="first-name4" aria-describedby="first-name4">
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="last-name4">Last Name</label>
+          <input id="last-name4" aria-describedby="last-name4">
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="relationship4">Relationship</label>
+          <input id="relationship4" aria-describedby="relationship4">
+        </div>
+        <div class="pad-t unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label class="pad-b-1-4" for="phone4">Phone Number</label>
+          <input type="tel" id="phone4" aria-describedby="phone4">
+        </div>
+      </div>
+      <div class="xs-1 s-1 m-1-2">
+        <div class="unit xs-1 m-1 l-1 pad-t pad-b-1-2 gutter">
+          <button class="btn btn-main" type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <footer class="pad-b wrapper">
+    <div class="grid">
+      <div class="unit xs-1 m-1-4 gutter pad-t">
+        <p class="push-0">Contact Us</p>
+        <p class="push-0 milli">613-822-0014</p>
+        <p class="push-0 milli">14B-1822 Whites Road Suite 327</p>
+      </div>
+      <div class="unit xs-1 m-1-4 gutter pad-t">
+        <p class="push-0 milli primary"><a href="adoptable-dogs.html">For Adoption</a></p>
+        <p class="push-0 milli primary"><a href="application.html">Application Form</a></p>
+      </div>
+      <div class="unit xs-1 m-1-4 grid gutter pad-t-1-2">
+        <div class="unit xs-1-4 m-1 pad-b-1-2 pad-t-1-2 inline-block">
+          <a href="https://www.facebook.com/LOYAL-Rescue-Inc-109918792364494/">
+            <svg class="icon i-48"><use xlink:href="../../images/icons.svg#facebook" /></svg>
+          </a>
+        </div>
+        <div class="unit xs-1-4 m-1 pad-b-1-2 pad-t-1-2 inline-block">
+          <a href="https://twitter.com/LOYALRescueDogs?lang=en">
+            <svg class="icon i-48"><use xlink:href="../../images/icons.svg#twitter" /></svg>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-  <p class="micro footer-p gutter"> &copy; Loyal Rescue Inc.</p>
-</footer>
-<script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+    <p class="micro footer-p gutter"> &copy; Loyal Rescue Inc.</p>
+  </footer>
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>
 </html>

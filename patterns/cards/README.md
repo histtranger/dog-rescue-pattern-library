@@ -1,8 +1,8 @@
 ---
 basic-card: |
-  This is a basic blue card. Either card can be used on the site. It can also include btn-ghost, main-light, and main buttons. Don't use secondary-light button.
-basic-card-purple: |
-  This is a basic purple card. Either card can be used on the site. A balance of both should be a priority. All buttons can be used except main-light.
+  This is the basic card for displaying information. Should never be used for the adoptable dogs page or for anything other than advertising an event or information. Pictures are encouraged but not necessary. Do not change which button styles are used.
+dog-card: |
+  This is the main card for displaying the different available dogs everywhere on the site. This card should be used frequently and more often than the basic card. Do not change which button styles are used.
 icon-card: |
   This is an icon card that can be used if needed. All buttons can be used except btn-ghost and main-light.
 banner: |

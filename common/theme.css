@@ -14,7 +14,7 @@ html {
   font-family: var(--font-primary);
 }
 
-body {
+.blue {
   background-color: var(--color-blue);
 }
 

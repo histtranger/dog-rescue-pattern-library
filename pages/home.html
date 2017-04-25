@@ -15,12 +15,14 @@
   <link href="../patterns/header-footer/header.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700" rel="stylesheet">
 </head>
-<body>
+<body class="blue">
   <header class="wrapper">
     <nav class="relative grid grid-middle">
       <div class="gutter inline-block unit xs-1 s-1-4 m-1-4">
         <a href="home.html">
-          <img class="icon i-80 i-center" src="../images/logo-64.svg" alt="Logo">
+          <i class="icon i-80">
+            <svg><use xlink:href="../../images/icons.svg#logo-32.svg" /></svg>
+          </i>
         </a>
       </div>
       <div class="unit xs-1 s-3-4 m-3-4 pad-b-1-2 pad-t-1-2">
@@ -42,7 +44,7 @@
     <div class="relative pad-b">
       <p class="banner-text yotta relative pad-1-2 center">WILL YOU BE MY FOREVER HOME?</p>
       <img class="banner push-0" src="../images/dog-banner.jpg" alt="">
-      <a class="absolute btn btn-main-light button-banner" href="#">ADOPTABLE DOGS</a>
+      <a class="absolute btn btn-main-light button-banner" href="adoptable-dogs.html">ADOPTABLE DOGS</a>
     </div>
   </section>
   <section class="island wrapper background-white">
@@ -53,40 +55,42 @@
   <section class="island wrapper background-white grid">
     <div class="card-group xs-1 text-center xs-1 s-1 l-1-2 unit">
       <h3 class="push-0">Featured Dogs</h3>
-      <a href="#">
-        <div class="card2 island-1-4 unit l-1 center-text">
+      <div class="card3 island-1-4 unit xs-1 s-1-2 m-1-2 center-text">
+        <a href="#">
           <img class="center card-img img-flex" src="../images/dog-1.jpg" alt="">
-          <h4 class="gutter-1-2 pad-t-1-2">Jaxter</h4>
+          <h4 class="gutter-1-2 pad-t-1-2 push-0">Jaxter</h4>
           <p class="gutter-1-2 push-0">Dachshund Mix</p>
-          <p class="gutter-1-2 push-0">Male</p>
-          <p class="gutter-1-2">Neutered</p>
-        </div>
-      </a>
-      <a href="#">
-        <div class="card2 island-1-4 unit l-1 text-center">
+          <p class="gutter-1-2 push-0">Neutered Male</p>
+          <p class="gutter-1-2 pad-b-1-2 push-0">3 Years</p>
+          <div class="btn btn-main">MORE INFO</div>
+        </a>
+      </div>
+      <div class="card3 island-1-4 unit xs-1 s-1-2 m-1-2 center-text">
+        <a href="#">
           <img class="center card-img img-flex" src="../images/dog-2.jpg" alt="">
-          <h4 class="gutter-1-2 pad-t-1-2">Bear</h4>
+          <h4 class="gutter-1-2 pad-t-1-2 push-0">Bear</h4>
           <p class="gutter-1-2 push-0">German Pointer</p>
-          <p class="gutter-1-2 push-0">Male</p>
-          <p class="gutter-1-2">Neutered</p>
-        </div>
-      </a>
+          <p class="gutter-1-2 push-0">Neutered Male</p>
+          <p class="gutter-1-2 pad-b-1-2 push-0">7 Years</p>
+          <div class="btn btn-main">MORE INFO</div>
+        </a>
+      </div>
     </div>
     <div class="card-group xs-1 text-center xs-1 s-1 l-1-2 unit">
       <h3 class="push-0 xs-1">Events</h3>
-      <div class="card1 island-1-4 xs-1 s-1-2 center-text">
+      <div class="card1 island-1-4 xs-1 s-1-2 center-text gutter-1-2">
         <img class="center card-img img-flex" src="../images/meetngreet.jpg" alt="">
         <h4 class="gutter-1-2 pad-t-1-2">Meet N' Greet</h4>
-        <p class="gutter-1-2">March 25, 11AM</p>
-        <p class="gutter-1-2">PetValu Kanata</p>
-        <a class="btn btn-main" href="#">CHECK IT OUT</a>
+        <p class="gutter-1-2 push-0">March 25, 11AM</p>
+        <p class="gutter-1-2 pad-b-1-2 push-0">PetValu Kanata</p>
+        <a class="btn btn-main" href="https://www.facebook.com/pg/LOYAL-Rescue-Inc-109918792364494/events/?ref=page_internal">CHECK IT OUT</a>
       </div>
-      <div class="card1 island-1-2 xs-1 s-1-2 center-text">
+      <div class="card1 island-1-2 xs-1 s-1-2 center-text gutter-1-2">
         <img class="center card-img img-flex" src="../images/meetngreet-2.jpg" alt="">
         <h4 class="gutter-1-2 pad-t-1-2">Meet N' Greet</h4>
-        <p class="gutter-1-2">March 25, 12PM</p>
-        <p class="gutter-1-2">PetValu Kanata</p>
-        <a class="btn btn-main center block" href="#">CHECK OUT IT</a>
+        <p class="gutter-1-2 push-0">March 25, 12PM</p>
+        <p class="gutter-1-2 pad-b-1-2 push-0">PetValu Kanata</p>
+        <a class="btn btn-main center block" href="https://www.facebook.com/pg/LOYAL-Rescue-Inc-109918792364494/events/?ref=page_internal">CHECK OUT IT</a>
       </div>
     </div>
   </section>

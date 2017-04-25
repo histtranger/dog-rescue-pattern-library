@@ -1,29 +1,15 @@
 .card1 {
   max-width: 190px;
-  margin: 0.5em auto;
+  margin: .5em auto;
   display: inline-block;
   border-radius: 7px;
   transition: all 150ms linear;
   vertical-align: top;
-}
-
-.card2 {
-  max-width: 190px;
-  margin: 0.5em auto;
-  display: inline-block;
-  border-radius: 7px;
-  transition: all 150ms linear;
-  vertical-align: top;
-}
-
-.card2:hover {
-  background-color: var(--color-primary);
-  color: white;
 }
 
 .card3 {
   max-width: 190px;
-  margin: 0.5em auto;
+  margin: .5em auto;
   display: inline-block;
   border-radius: 7px;
   transition: all 150ms linear;
@@ -35,7 +21,7 @@
 }
 
 .card3:hover div {
-  background-color: var(--color-primary)
+  background-color: var(--color-primary);
 }
 
 .card-img {

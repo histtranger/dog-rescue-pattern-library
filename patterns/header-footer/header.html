@@ -13,18 +13,25 @@
   <link href="header.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="wrapper">
     <nav class="relative grid grid-middle">
       <div class="gutter inline-block unit xs-1 s-1-4 m-1-4">
-        <img class="icon i-80 i-center" src="../../images/logo-64.svg" alt="Logo">
+        <a href="home.html">
+          <i class="icon i-80">
+            <svg><use xlink:href="../../images/icons.svg#logo-32.svg" /></svg>
+          </i>
+        </a>
       </div>
       <div class="unit xs-1 s-3-4 m-3-4 pad-b-1-2 pad-t-1-2">
         <ul class="nav-list list-group">
-          <li class="inline-block gutter-1-2">
-            <a class="btn btn-main-light" href="#">For Adoption</a>
+          <li class="inline-block gutter-1-4">
+            <a class="btn btn-main-light" href="#">FAQ</a>
           </li>
-          <li class="inline-block gutter-1-2">
-            <a class="btn btn-main-light" href="#">Application</a>
+          <li class="inline-block gutter-1-4">
+            <a class="btn btn-main-light" href="adoptable-dogs.html">For Adoption</a>
+          </li>
+          <li class="inline-block gutter-1-4">
+            <a class="btn btn-main-light" href="app-form.html">Application</a>
           </li>
         </ul>
       </div>
