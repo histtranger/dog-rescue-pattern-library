@@ -1,3 +1,17 @@
+button {
+  background-color: var(--color-secondary);
+  border: none;
+  color: var(--color-blue);
+  font-family: "Droid Sans", sans-serif;
+  padding: .75em .5em;
+  transition: all 150ms linear;
+}
+
+button:focus, button:hover {
+  background-color: var(--color-blue);
+  color: var(--color-secondary);
+}
+
 .btn:focus {
   outline: 2px outset var(--color-lightgrey);
   outline-offset: 2px;
@@ -13,7 +27,8 @@
 }
 
 .btn-main:focus, .btn-main:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-blue);
+  color: var(--color-secondary);
 }
 
 .btn-main-light {
@@ -33,14 +48,15 @@
 .btn-s-light {
   background-color: var(--color-blue);
   border: none;
-  color: var(--color-grey);
+  color: var(--color-secondary);
   font-family: "Droid Sans", sans-serif;
   padding: .75em .5em;
   transition: all 150ms linear;
 }
 
 .btn-s-light:focus, .btn-s-light:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
+  color: var(--color-white);
   border: none;
 }
 

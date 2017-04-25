@@ -1,0 +1,15 @@
+.card-group {
+  border: 2px double var(--color-primary);
+  border-radius: 10px;
+  max-width: 440px;
+  padding: 1em;
+  margin: .5em auto;
+  transition: all 150ms linear;
+}
+
+.dog-group {
+  border: 2px double var(--color-primary);
+  border-radius: 10px;
+  padding: 1em;
+  margin: 0 1em 1em;
+}

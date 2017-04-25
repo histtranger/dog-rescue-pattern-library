@@ -1,29 +1,53 @@
 .card1 {
-  background-color: var(--color-blue);
-  max-width: 400px;
-  margin: .5em auto;
+  max-width: 190px;
+  margin: 0.5em auto;
+  display: inline-block;
+  border-radius: 7px;
+  transition: all 150ms linear;
+  vertical-align: top;
 }
 
 .card2 {
+  max-width: 190px;
+  margin: 0.5em auto;
+  display: inline-block;
+  border-radius: 7px;
+  transition: all 150ms linear;
+  vertical-align: top;
+}
+
+.card2:hover {
   background-color: var(--color-primary);
-  max-width: 300px;
-  margin: 0.5em;
+  color: white;
 }
 
 .card3 {
-  background-color: var(--color-primary);
-  margin: 0.5em;
-  border-radius: 20px;
-  max-width: 300px;
+  max-width: 190px;
+  margin: 0.5em auto;
+  display: inline-block;
+  border-radius: 7px;
+  transition: all 150ms linear;
+  vertical-align: top;
 }
 
-.white {
-  color: var(--color-white);
+.card3:hover {
+  background-color: var(--color-blue);
+}
+
+.card3:hover div {
+  background-color: var(--color-primary)
+}
+
+.card-img {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
 }
 
 .banner {
   max-width: 100%;
   position: relative;
+  min-width: 500px;
 }
 
 .banner-text {

@@ -14,6 +14,14 @@ html {
   font-family: var(--font-primary);
 }
 
+body {
+  background-color: var(--color-blue);
+}
+
+.background-white {
+  background-color: var(--color-white)
+}
+
 h1 {
   font-family: var(--font-primary);
   color: var(--color-grey);
