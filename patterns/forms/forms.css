@@ -1,5 +1,5 @@
 label {
- font-family: var(--font-primary);
+  font-family: var(--font-primary);
 }
 
 .max {
@@ -58,7 +58,7 @@ input[type="radio"] + label::before {
 
 input[type="radio"]:checked + label::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' data-name='Layer 1' viewBox='0 0 256 256'%3E%3Ccircle cx='128' cy='128' r='70.4'/%3E%3C/svg%3E");
-  border-color: var(--color-primary)
+  border-color: var(--color-primary);
 }
 
 .is-validated input:invalid {
@@ -81,7 +81,7 @@ input[type="radio"]:checked + label::before {
   display: none;
   max-width: 321px;
   margin-left: 15px;
-  color:  #cc0000;
+  color: #c00;
   width: 100%;
 }
 

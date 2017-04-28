@@ -5,8 +5,6 @@ drop-down: |
   Main drop down menu.
 textarea: |
   Large text fields shouldn't be able to extend very far.  Max-height and max-width should be below 10em.
-label: |
-    This is the label for all inputs, text areas, and other. Color should not be changed, unless absolutely necessary. If a colored font is needed, please use var(--color-primary). The font is always var(--font-primary).
 telephone: |
   This is meant for telephone inputs.
 radio-buttons: |
