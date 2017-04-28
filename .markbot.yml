@@ -15,5 +15,3 @@ allFiles:
   css:
     valid: true
     bestPractices: true
-  md:
-    valid: true
